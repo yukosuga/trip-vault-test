@@ -3,7 +3,6 @@ import { createStackNavigator } from "@react-navigation/stack";
 import WelcomeScreen from "./app/screens/WelcomeScreen";
 import LoginScreen from "./app/screens/LoginScreen";
 import RegisterScreen from "./app/screens/RegisterScreen";
-import TabNavigation from "./app/navigations/TabNavigation";
 
 const Stack = createStackNavigator();
 

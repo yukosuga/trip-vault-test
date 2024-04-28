@@ -9,10 +9,9 @@ module.exports = {
         lightGreen: "#04D9B2",
         darkGreen: "#036884",
         yellow: "#FDA541",
-        gray: "#BBBBBB"
-      }
+        gray: "#BBBBBB",
+      },
     },
   },
   plugins: [],
-}
-
+};

@@ -11,6 +11,7 @@ import { AntDesign } from "@expo/vector-icons";
 import { Ionicons } from "@expo/vector-icons";
 
 const Tab = createBottomTabNavigator();
+
 export default function TabNavigation() {
   return (
     <Tab.Navigator
