@@ -15,12 +15,12 @@ export default function LoginScreen() {
       <Text className="mt-12 text-xl">Login</Text>
       <Text>Login to your account</Text>
       <TextInput
-        className="w-[300px] mt-12 bg-white rounded-md p-3"
+        className="w-[300px] mt-12 bg-lightGray rounded-md p-3"
         placeholder="username / email"
         placeholderTextColor="#999"
       ></TextInput>
       <TextInput
-        className="w-[300px] mt-4 bg-white rounded-md p-3"
+        className="w-[300px] mt-4 bg-lightGray rounded-md p-3"
         placeholder="password"
         placeholderTextColor="#999"
       ></TextInput>
