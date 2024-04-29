@@ -1,12 +1,11 @@
-import { View, Text } from 'react-native'
-import React from 'react'
-import TabNavigation from '../navigations/TabNavigation'
+import { View, Text } from "react-native";
+import React from "react";
+import TabNavigation from "../navigations/TabNavigation";
 
 export default function MyTripsScreen() {
   return (
-    <View>
+    <View style={{ flex: 1 }}>
       <Text>MyTripsScreen</Text>
-      <TabNavigation />
     </View>
-  )
+  );
 }

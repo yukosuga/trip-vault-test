@@ -8,6 +8,7 @@ import React from "react";
 export default function LoginScreen() {
   return (
     <View className="flex-1 items-center">
+
       <Image
         source={require("./../../assets/images/trip-vault-logo.png")}
         className="w-[150px] h-[150px] mt-5"
@@ -15,7 +16,7 @@ export default function LoginScreen() {
       <Text className="mt-12 text-xl">Login</Text>
       <Text>Login to your account</Text>
       <TextInput
-        className="w-[300px] mt-12 bg-lightGray rounded-md p-3"
+        className="w-[300px] mt-8 bg-lightGray rounded-md p-3"
         placeholder="username / email"
         placeholderTextColor="#999"
       ></TextInput>
@@ -25,7 +26,7 @@ export default function LoginScreen() {
         placeholderTextColor="#999"
       ></TextInput>
 
-      <Text className="mt-20">Don't have an account?</Text>
+      <Text className="mt-28">Don't have an account?</Text>
       <TouchableOpacity>
         <Text className="mt-2 text-orange">Register</Text>
       </TouchableOpacity>
