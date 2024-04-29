@@ -1,14 +1,13 @@
-import { View, Text, Image, TextInput } from "react-native";
+import { View, Text, Image, TouchableOpacity } from "react-native";
 import React from "react";
-import { TouchableOpacity } from "react-native-gesture-handler";
 
 export default function MyAccountScreen() {
   return (
     <>
       <View className="flex-1 items-center">
         <Image
-          source={require("./../../assets/images/avatar1.png")}
-          className="w-[100px] h-[100px] mt-5"
+          source={require("./../../assets/images/beach.png")}
+          className="w-[100px] h-[100px] mt-5 rounded-xl"
         />
         <Text className="text-xl">My Account</Text>
 

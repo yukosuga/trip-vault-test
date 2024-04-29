@@ -11,9 +11,9 @@ export default function LoginScreen() {
 
       <Image
         source={require("./../../assets/images/trip-vault-logo.png")}
-        className="w-[150px] h-[150px] mt-5"
+        className="w-[120px] h-[120px] mt-5"
       />
-      <Text className="mt-12 text-xl">Login</Text>
+      <Text className="mt-12 text-xl font-semibold">Login</Text>
       <Text>Login to your account</Text>
       <TextInput
         className="w-[300px] mt-8 bg-lightGray rounded-md p-3"

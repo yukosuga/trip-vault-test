@@ -23,6 +23,7 @@ export default function TabNavigation() {
         name="MyTrips"
         component={MyTripsScreen}
         options={{
+          headerShown: false,
           tabBarLabel: ({ color }) => (
             <View style={{ flexDirection: "column", alignItems: "center" }}>
               <MaterialIcons
@@ -42,6 +43,7 @@ export default function TabNavigation() {
         name="Stats"
         component={StatsScreen}
         options={{
+          headerShown: false,
           tabBarLabel: ({ color }) => (
             <View style={{ flexDirection: "column", alignItems: "center" }}>
               <AntDesign name="piechart" size={32} color={color} />
@@ -55,6 +57,7 @@ export default function TabNavigation() {
         name="MyAccount"
         component={MyAccountScreen}
         options={{
+          headerShown: false,
           tabBarLabel: ({ color }) => (
             <View style={{ flexDirection: "column", alignItems: "center" }}>
               <Ionicons name="person" size={32} color={color} />
