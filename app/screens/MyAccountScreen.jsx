@@ -9,7 +9,12 @@ export default function MyAccountScreen() {
           source={require("./../../assets/images/beach.png")}
           className="w-[100px] h-[100px] mt-5 rounded-xl"
         />
-        <Text className="text-xl">My Account</Text>
+        <Text className="mt-2">example@gmail.com</Text>
+        <View />
+        
+        <View className="mt-2 justify-start items-start">
+          <Text className="text-xl mt-5 font-semibold">My Account</Text>
+        </View>
 
         <View className="mt-4">
           <Text className="text-left">username</Text>
