@@ -68,8 +68,6 @@ export default function Category() {
           />
         </TouchableOpacity>
       </View>
-      <TabNavigation />
-
     </View>
   );
 }

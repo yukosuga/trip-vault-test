@@ -18,7 +18,7 @@ export default function TripScreen() {
         placeholderTextColor="#999"
       ></TextInput>
 
-      <TabNavigation />
+      {/* <TabNavigation /> */}
     </View>
   );
 }

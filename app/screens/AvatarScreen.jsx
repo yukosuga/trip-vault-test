@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Avatar() {
   return (
-    <View className="items-center mt-5">
+    <View className="items-center mt-8">
       <Text className="text-xl font-semibold">Pick your avatar</Text>
       <View className="flex flex-row w-20 h-20 rounded-xl gap-3 justify-center mt-5">
         <TouchableOpacity>
