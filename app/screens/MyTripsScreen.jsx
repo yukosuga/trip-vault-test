@@ -3,9 +3,5 @@ import React from "react";
 import TabNavigation from "../navigations/TabNavigation";
 
 export default function MyTripsScreen() {
-  return (
-    <View style={{ flex: 1 }}>
-      <Text>MyTripsScreen</Text>
-    </View>
-  );
+  return <View style={{ flex: 1 }}></View>;
 }
