@@ -6,7 +6,7 @@ import { FontAwesome } from "@expo/vector-icons";
 import { FontAwesome6 } from "@expo/vector-icons";
 import { useState } from "react";
 
-export default function NewExpenseScreen() {
+export default function EditExpenseScreen() {
   const [selectedCategory, setSelectedCategory] = useState(null);
 
   return (
@@ -30,7 +30,6 @@ export default function NewExpenseScreen() {
         </View>
         <View />
 
-        {/* !icon into placeholder */}
         <View style="relative">
           {/* <MaterialIcons
             name="edit"
